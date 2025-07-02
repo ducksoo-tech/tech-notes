@@ -1,0 +1,10 @@
+# What does "U" (Untracked) mean in Cursor?
+
+In the left sidebar of Cursor, you might see a **`U`** next to some files.
+
+This **`U` stands for "Untracked"**, which means the file (in this case, README.md) is not currently being tracked by Git. Git doesn't monitor changes to this file yet.
+
+To start tracking it, you need to add it using this command in the terminal:
+
+```bash
+git add README.md
